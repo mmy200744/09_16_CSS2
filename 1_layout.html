@@ -3,9 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>레이아웃</title>
+    <title>
+      안녕하세요, 장창용입니다. <!-- 1. favicon 2. og tag 3. "web font" -->
+    </title>
+    <style>
+      @font-face {
+        font-family: "SchoolPeaceOfMindNature";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/HakgyoansimJayeonR.woff2")
+          format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "NanumMyeongjoEco";
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEco.eot);
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEco.eot?#iefix)
+            format("embedded-opentype"),
+          url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEco.woff)
+            format("woff"),
+          url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEco.ttf)
+            format("truetype");
+      }
+
+      @font-face {
+        font-family: "NanumMyeongjoEco";
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEcoBold.otf)
+            format("embedded-opentype"),
+          url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEcoBold.ttf)
+            format("truetype"),
+          url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEcoBold.woff)
+            format("woff");
+      }
+
+      @font-face {
+        font-family: "NanumMyeongjoEco";
+        src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.ttf)
+            format("truetype"),
+          url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.otf)
+            format("embedded-opentype"),
+          url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumEco/NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.woff)
+            format("woff");
+      }
+      .title {
+        font-family: NanumMyeongjoEco;
+      }
+
+      * {
+        box-sizing: border-box; /*기본 전체 설정 모든 box width, height를 우리 지정에 맞게*/
+      }
+      body {
+        margin: 0; /*기본 마진*/
+        font-family: "SchoolPeaceOfMindNature";
+      }
+      /*1. 색상 설정*/
+      /*2. favicon, og tag*/
+      /*3. "layout, 컨텐트"*/
+    </style>
   </head>
   <body>
-    
+    <h1 class="title">반갑습니다, 장창용입니다.</h1>
+    <p>사용자에게 더 나은 가치를 제공하기 위해 공부합니다.</p>
+    <!-- flex 기반 레이아웃, svg repo -->
+    <!-- 기술 스택 (부트캠프) -->
+
+    <!-- 포트폴리오(3종) -->
   </body>
 </html>
